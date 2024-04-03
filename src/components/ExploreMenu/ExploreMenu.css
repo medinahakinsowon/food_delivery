@@ -57,3 +57,13 @@
   padding: 3px;
 }
 
+
+
+/* media query */
+
+@media (max-width: 1050px){
+  .explore_menu_text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}

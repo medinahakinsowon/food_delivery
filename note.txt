@@ -1,0 +1,14 @@
+
+
+
+const [itemCount,setItemCount] = useState(0)
+
+     {!cartItems ? 
+              <img src={assets.add_icon_white} className='add' onClick={() => setItemCount(prev=>prev+1)}/> 
+               : 
+               <div className='food_item_counter'>
+                <img  onClick={() =>setItemCount(prev=>prev-1)} src={assets.remove_icon_red} alt=''/>
+                <p>{itemCount}</p>
+                <img  onClick={() =>setItemCount(prev=>prev+1)} src={assets.add_icon_green} alt=''/>
+               </div>
+        }
