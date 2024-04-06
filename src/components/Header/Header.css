@@ -3,9 +3,13 @@
 .header {
   height: 34vw;
   margin: 30px auto;
-  background: url('./header_img.png') no-repeat;
-  background-size: contain;
+  /* background: url('./header_img.png') no-repeat; */
+  /* background-size: contain; */
   position: relative;
+}
+
+.header-image {
+  width: 100%;
 }
 
 .header_contents {
@@ -30,6 +34,7 @@
 .header_contents p{
   font-size: 1vw;
   color: #ffffff;
+  width: 400px;
 }
 
 .header_contents button {
